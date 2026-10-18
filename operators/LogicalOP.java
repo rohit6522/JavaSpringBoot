@@ -9,8 +9,12 @@ public class LogicalOP {
     int x = 9;
     int y = 2;
 
-    boolean result = a>b && x >y;
-    System.out.println(result);
+    // boolean result = a>b && x >y;
+    // boolean result = a<b || x >y;
+    boolean result = a<b ;
+    System.out.println(!result);
+    // System.out.println(result);
+
 
 
   }
